@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request, redirect
 import logging
 
-app = Flask("__main__", template_folder="/Users/satish/Desktop/folders/ngl-simran_deyy-main/templates",
-            static_folder="/Users/satish/Desktop/folders/ngl-simran_deyy-main/static")
+app = Flask("__main__", template_folder="/opt/render/project/src/templating.py",
+            static_folder="/opt/render/project/src/static")
 logging.basicConfig(level=logging.DEBUG)
 
 
