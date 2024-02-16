@@ -30,14 +30,14 @@ def after():
 def run_insta_code():
     if request.method == "POST":
         print(request.form)
-        return redirect("http://127.0.0.1:5000/simran_deyy")
+        return redirect("https://ngl-link.onrender.com/simran_deyy")
 
 
 @app.route("/simran_deyy", methods=["POST", "GET"])
 def run_ngl_code():
     if request.method == "POST":
         print(request.form)
-        return redirect("http://127.0.0.1:5000/after")
+        return redirect("https://ngl-link.onrender.com/after")
 
 
 if __name__ == "__main__":
